@@ -1,0 +1,58 @@
+{
+  "kategoriler": [
+    {
+      "id": "elektrik-guvenligi",
+      "name": "Elektrik Güvenliği",
+      "count": 2
+    },
+    {
+      "id": "tesisat",
+      "name": "Tesisat",
+      "count": 1
+    }
+  ],
+  "haberler": [
+    {
+      "id": 1,
+      "slug": "sigorta-surekli-atiyorsa-ne-yapmalisiniz",
+      "title": "Sigorta sürekli atıyorsa ne yapmalısınız?",
+      "excerpt": "Aşırı yük, kısa devre ve kaçak akım ihtimallerini ayırt etmek için dikkat edilmesi gereken ilk işaretler.",
+      "content": "Sigortanın sürekli atması çoğu zaman aşırı yük, kısa devre veya kaçak akım belirtisidir. Sorun tekrarlıyorsa hattı zorlamadan profesyonel ölçüm yapılmalıdır.",
+      "image": "/trkfdn/news/sigorta-arizasi.png",
+      "date": "14 Temmuz 2026",
+      "author": "TRKFDN Elektrik",
+      "category": "Elektrik Güvenliği",
+      "categoryId": "elektrik-guvenligi",
+      "readTime": "3 dk",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "slug": "evde-guvenli-priz-kullanimi",
+      "title": "Evde güvenli priz kullanımı",
+      "excerpt": "Uzatma kablosu, çoklayıcı ve yüksek güçlü cihazlarda yangın riskini azaltan pratik kontroller.",
+      "content": "Isınan priz, gevşek fiş ve çoklayıcıya bağlanan yüksek güçlü cihazlar elektrik güvenliği açısından risk oluşturabilir.",
+      "image": "/trkfdn/news/guvenli-priz.png",
+      "date": "8 Temmuz 2026",
+      "author": "TRKFDN Elektrik",
+      "category": "Elektrik Güvenliği",
+      "categoryId": "elektrik-guvenligi",
+      "readTime": "3 dk",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "slug": "tesisat-yenileme-ne-zaman-gerekir",
+      "title": "Tesisat yenileme ne zaman gerekir?",
+      "excerpt": "Eski kablo, topraklama eksikliği ve pano kapasitesi gibi yenileme kararını etkileyen başlıklar.",
+      "content": "Eski elektrik hatları yeni cihaz yüklerini taşımakta zorlanabilir. Yenileme kararı topraklama, kablo kesiti ve pano kapasitesi ölçülerek verilmelidir.",
+      "image": "/trkfdn/news/tesisat-yenileme.png",
+      "date": "2 Temmuz 2026",
+      "author": "TRKFDN Elektrik",
+      "category": "Tesisat",
+      "categoryId": "tesisat",
+      "readTime": "4 dk",
+      "featured": false
+    }
+  ]
+}

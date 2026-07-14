@@ -1,0 +1,9 @@
+<svg width="780" height="190" viewBox="0 0 780 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M49 96C49 61.758 91.258 44.775 115.163 69.295L160 115.287L204.837 69.295C228.742 44.775 271 61.758 271 96C271 130.242 228.742 147.225 204.837 122.705L160 76.713L115.163 122.705C91.258 147.225 49 130.242 49 96Z" stroke="#E72B25" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41 64H75" stroke="#E72B25" stroke-width="16" stroke-linecap="round"/>
+  <path d="M245 128H287M245 106H276M245 150H276" stroke="#E72B25" stroke-width="15" stroke-linecap="round"/>
+  <path d="M330 32H390L360 84H408L316 166L351 103H304L330 32Z" fill="#F4C542"/>
+  <path d="M420 48H746" stroke="white" stroke-opacity="0.16" stroke-width="1"/>
+  <text x="420" y="96" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="900" letter-spacing="3">TRKFDN</text>
+  <text x="424" y="139" fill="#F4C542" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" letter-spacing="8">ELEKTRIK</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "kategoriler": [
+    {
+      "id": "pano",
+      "name": "Pano ve Sigorta",
+      "description": "Pano kontrolü, kaçak akım rölesi ve sigorta grubu düzenlemeleri.",
+      "count": 1
+    },
+    {
+      "id": "aydinlatma",
+      "name": "Aydınlatma",
+      "description": "Ev, ofis ve bina ortak alanları için LED aydınlatma montajları.",
+      "count": 1
+    },
+    {
+      "id": "kamera",
+      "name": "Kamera Sistemleri",
+      "description": "Kamera, network ve zayıf akım bağlantı işleri.",
+      "count": 1
+    }
+  ],
+  "isler": [
+    {
+      "id": "pano-kontrol",
+      "title": "Pano kontrol ve arıza tespiti",
+      "description": "Sigorta grupları, kaçak akım rölesi ve yük dağılımı ölçümlü şekilde kontrol edildi.",
+      "categoryId": "pano",
+      "image": "/trkfdn/gallery/pano-kontrol.png",
+      "thumbnail": "/trkfdn/gallery/pano-kontrol.png",
+      "tags": ["pano", "sigorta", "arıza tespiti"],
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "ofis-aydinlatma",
+      "title": "Ofis LED aydınlatma montajı",
+      "description": "LED lineer armatürler, kablo kanalları ve tavan bağlantıları temiz işçilikle hazırlandı.",
+      "categoryId": "aydinlatma",
+      "image": "/trkfdn/gallery/ofis-aydinlatma.png",
+      "thumbnail": "/trkfdn/gallery/ofis-aydinlatma.png",
+      "tags": ["aydınlatma", "ofis", "led"],
+      "featured": false,
+      "order": 2
+    },
+    {
+      "id": "kamera-kurulum",
+      "title": "Kamera ve network kurulumu",
+      "description": "Kamera, network kablosu ve bağlantı kutusu test edilerek güvenli şekilde teslim edildi.",
+      "categoryId": "kamera",
+      "image": "/trkfdn/gallery/kamera-kurulum.png",
+      "thumbnail": "/trkfdn/gallery/kamera-kurulum.png",
+      "tags": ["kamera", "network", "zayıf akım"],
+      "featured": false,
+      "order": 3
+    }
+  ]
+}
