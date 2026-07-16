@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="border-t border-[rgba(199,155,67,0.20)] py-16">
           <div className="grid gap-10 lg:grid-cols-[1.05fr_0.78fr_1.22fr_1fr] lg:gap-12">
             <div>
-              <div className="inline-flex min-h-[64px] items-center rounded-full border border-white/10 bg-[#111]/80 px-5 py-2 shadow-[0_12px_34px_rgba(0,0,0,0.18)] backdrop-blur-xl">
+              <div className="inline-flex min-h-[64px] items-center">
                 <Image
                   src="/brand/trkfdn-logo.svg"
                   alt="TRKFDN Elektrik"

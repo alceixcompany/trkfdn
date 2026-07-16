@@ -84,7 +84,7 @@ const Hero = () => {
               href="tel:05550344224"
               className="inline-flex items-center justify-between gap-3 rounded-full border border-white/12 bg-white/[0.06] px-6 py-3 text-sm font-bold text-white transition-colors hover:border-[var(--lale-gold)]"
             >
-              <span>TRKFDN</span>
+              <span>Tarık Fidan</span>
               <span className="inline-flex items-center gap-2">
                 0555 034 42 24
                 <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />

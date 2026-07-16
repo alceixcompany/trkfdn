@@ -84,10 +84,12 @@ const WhyChooseUs = () => {
               <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,250,248,0.08),transparent_42%,rgba(31,24,18,0.18))]" />
             </div>
 
-            <div className="absolute -bottom-6 left-5 right-5 rounded-lg border border-[rgba(199,155,67,0.22)] bg-[rgba(255,250,248,0.86)] p-5 shadow-[0_20px_54px_rgba(31,24,18,0.12)] backdrop-blur-2xl sm:left-auto sm:right-6 sm:w-[360px]">
-              <div className="flex items-start gap-3">
-                <FiCheckCircle className="mt-1 h-5 w-5 shrink-0 text-[var(--lale-gold)]" />
-                <p className="text-sm leading-6 text-[var(--dream-dark)]">
+            <div className="absolute -bottom-6 left-5 right-5 rounded-lg border border-[rgba(244,197,66,0.28)] bg-[#111]/88 p-4 shadow-[0_24px_70px_rgba(0,0,0,0.36)] backdrop-blur-2xl sm:left-auto sm:right-6 sm:w-[390px] sm:p-5">
+              <div className="flex items-start gap-4">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[rgba(244,197,66,0.30)] bg-[rgba(244,197,66,0.10)]">
+                  <FiCheckCircle className="h-5 w-5 text-[var(--lale-gold)]" />
+                </span>
+                <p className="text-sm font-medium leading-6 text-white/86 sm:text-base sm:leading-7">
                   Her servis sonunda kaçak akım, sigorta ve bağlantı kontrolleri ölçülerek teslim edilir.
                 </p>
               </div>

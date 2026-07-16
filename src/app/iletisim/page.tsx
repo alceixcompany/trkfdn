@@ -255,7 +255,7 @@ const ContactPage = () => {
                 <div className="space-y-8">
                   {[
                     { icon: FiPhone, title: "Mehmet YÖNEY", value: "0531 606 39 87", sub: "Acil Servis & Bilgi Hattı" },
-                    { icon: FiPhone, title: "TRKFDN", value: "0555 034 42 24", sub: "İkinci iletişim hattı" },
+                    { icon: FiPhone, title: "Tarık Fidan", value: "0555 034 42 24", sub: "İkinci iletişim hattı" },
                     { icon: FiMail, title: "E-posta", value: "info@trkfdnelektrik.com", sub: "Servis talepleri" },
                     { icon: FiMapPin, title: "Bölge", value: "Eyüpsultan ve çevresi", sub: "İstanbul, Türkiye" },
                     { icon: FiClock, title: "Çalışma Saatleri", value: "7/24 Acil Destek", sub: "Planlı servis: 09:00 - 20:00" }

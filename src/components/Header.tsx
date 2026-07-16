@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { createPortal } from 'react-dom';
 import { FiMenu, FiMessageCircle, FiPhone, FiX } from 'react-icons/fi';
+import PhoneModal from './PhoneModal';
 
 const navLinks = [
   { href: '/', label: 'Ana Sayfa' },
@@ -18,6 +19,7 @@ const navLinks = [
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isPhoneModalOpen, setIsPhoneModalOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const isAdminPage = pathname?.startsWith('/admin') || false;
@@ -92,17 +94,14 @@ const Header = () => {
         </nav>
 
         <div className="hidden items-center gap-2 justify-self-end lg:flex">
-          <a
-            href="tel:05550344224"
-            className="inline-flex items-center gap-2 rounded-full border border-transparent bg-white/[0.16] px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/24"
+          <button
+            type="button"
+            onClick={() => setIsPhoneModalOpen(true)}
+            className="lale-gold-button gap-2 py-3"
           >
-            <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />
-            0555 034 42 24
-          </a>
-          <a href="tel:05316063987" className="lale-gold-button gap-2 py-3">
             <FiPhone className="h-4 w-4" />
-            0531 606 39 87
-          </a>
+            Hemen Ara
+          </button>
         </div>
 
         <button
@@ -159,10 +158,17 @@ const Header = () => {
             </div>
 
             <div className="mt-8 grid gap-3">
-              <a href="tel:05316063987" className="lale-gold-button gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  setIsPhoneModalOpen(true);
+                }}
+                className="lale-gold-button gap-3"
+              >
                 <FiPhone className="h-4 w-4" />
-                0531 606 39 87
-              </a>
+                Telefon Numaraları
+              </button>
               <a
                 href="https://wa.me/905316063987"
                 target="_blank"
@@ -177,6 +183,7 @@ const Header = () => {
         </div>,
         document.body
       )}
+      <PhoneModal isOpen={isPhoneModalOpen} onClose={() => setIsPhoneModalOpen(false)} />
     </header>
   );
 };

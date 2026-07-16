@@ -1,9 +1,38 @@
-<svg width="780" height="190" viewBox="0 0 780 190" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M49 96C49 61.758 91.258 44.775 115.163 69.295L160 115.287L204.837 69.295C228.742 44.775 271 61.758 271 96C271 130.242 228.742 147.225 204.837 122.705L160 76.713L115.163 122.705C91.258 147.225 49 130.242 49 96Z" stroke="#E72B25" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M41 64H75" stroke="#E72B25" stroke-width="16" stroke-linecap="round"/>
-  <path d="M245 128H287M245 106H276M245 150H276" stroke="#E72B25" stroke-width="15" stroke-linecap="round"/>
-  <path d="M330 32H390L360 84H408L316 166L351 103H304L330 32Z" fill="#F4C542"/>
-  <path d="M420 48H746" stroke="white" stroke-opacity="0.16" stroke-width="1"/>
-  <text x="420" y="96" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="53" font-weight="900" letter-spacing="3">TRKFDN</text>
-  <text x="424" y="139" fill="#F4C542" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" letter-spacing="8">ELEKTRIK</text>
+<svg width="780" height="190" viewBox="0 0 780 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TRKFDN Elektrik</title>
+  <desc id="desc">TRKFDN Elektrik logo on a transparent background</desc>
+
+  <defs>
+    <linearGradient id="silver" x1="0" y1="36" x2="0" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.52" stop-color="#F5F5F5"/>
+      <stop offset="1" stop-color="#D8D8D8"/>
+    </linearGradient>
+  </defs>
+
+  <text
+    x="54"
+    y="112"
+    fill="url(#silver)"
+    font-family="Arial Black, Arial, Helvetica, sans-serif"
+    font-size="91"
+    font-weight="900"
+    textLength="674"
+    lengthAdjust="spacingAndGlyphs"
+  >TRKFDN</text>
+
+  <path d="M349 78L389 117H356L327 89L349 78Z" fill="#E31B23"/>
+
+  <path d="M56 151L149 148V153L56 151Z" fill="#E6AF2E"/>
+  <text
+    x="168"
+    y="169"
+    fill="#E31B23"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="47"
+    font-weight="700"
+    textLength="445"
+    lengthAdjust="spacing"
+  >ELEKTRİK</text>
+  <path d="M631 148L724 151L631 153V148Z" fill="#E6AF2E"/>
 </svg>
