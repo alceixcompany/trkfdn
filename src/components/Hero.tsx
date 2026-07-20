@@ -47,7 +47,7 @@ const Hero = () => {
             Elektrik arızasında hızlı ve net müdahale.
           </h1>
           <p className="mt-7 max-w-2xl text-base leading-8 text-white/72 sm:text-lg">
-            Mehmet YÖNEY yönetiminde sigorta arızaları, bakım-onarım-tadilat,
+            Tarık Fidan yönetiminde sigorta arızaları, bakım-onarım-tadilat,
             ev/ofis elektrik işleri, aydınlatma montajları, taahhüt ve kamera kurulum hizmetleri.
           </p>
 
@@ -73,20 +73,20 @@ const Hero = () => {
           </div>
 
           <div className="mt-5 grid gap-3">
-            <a href="tel:05316063987" className="lale-gold-button justify-between gap-3">
-              <span>Mehmet YÖNEY</span>
+            <a href="tel:05550344224" className="lale-gold-button justify-between gap-3">
+              <span>Tarık Fidan</span>
               <span className="inline-flex items-center gap-2">
-                0531 606 39 87
+                0555 034 42 24
                 <FiPhone className="h-4 w-4" />
               </span>
             </a>
             <a
-              href="tel:05550344224"
+              href="tel:05316063987"
               className="inline-flex items-center justify-between gap-3 rounded-full border border-white/12 bg-white/[0.06] px-6 py-3 text-sm font-bold text-white transition-colors hover:border-[var(--lale-gold)]"
             >
-              <span>Tarık Fidan</span>
+              <span>Tarık Fidan · 2. Hat</span>
               <span className="inline-flex items-center gap-2">
-                0555 034 42 24
+                0531 606 39 87
                 <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />
               </span>
             </a>

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   keywords: [
     "trkfdn",
     "trkfdn elektrik",
-    "mehmet yöney elektrik",
+    "tarık fidan elektrik",
     "elektrikçi",
     "istanbul elektrikçi",
     "acil elektrikçi",

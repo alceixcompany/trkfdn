@@ -254,8 +254,8 @@ const ContactPage = () => {
                 
                 <div className="space-y-8">
                   {[
-                    { icon: FiPhone, title: "Mehmet YÖNEY", value: "0531 606 39 87", sub: "Acil Servis & Bilgi Hattı" },
-                    { icon: FiPhone, title: "Tarık Fidan", value: "0555 034 42 24", sub: "İkinci iletişim hattı" },
+                    { icon: FiPhone, title: "Tarık Fidan", value: "0555 034 42 24", sub: "Ana Hat · Acil Servis & Bilgi" },
+                    { icon: FiPhone, title: "Tarık Fidan", value: "0531 606 39 87", sub: "İkinci iletişim hattı" },
                     { icon: FiMail, title: "E-posta", value: "info@trkfdnelektrik.com", sub: "Servis talepleri" },
                     { icon: FiMapPin, title: "Bölge", value: "Eyüpsultan ve çevresi", sub: "İstanbul, Türkiye" },
                     { icon: FiClock, title: "Çalışma Saatleri", value: "7/24 Acil Destek", sub: "Planlı servis: 09:00 - 20:00" }
@@ -305,7 +305,7 @@ const ContactPage = () => {
           <p className="text-[rgba(251,250,246,0.68)] text-lg mb-12 max-w-xl mx-auto">Arıza fotoğrafını, konumu ve kısa açıklamayı gönderin; ekip en kısa sürede dönüş yapsın.</p>
           
           <a 
-            href="https://wa.me/905316063987" 
+            href="https://wa.me/905550344224"
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-[var(--lale-gold)] hover:bg-[var(--lale-gold-soft)] px-8 py-4 text-sm font-bold tracking-[0.15em] text-[#111] shadow-[0_16px_34px_rgba(244,197,66,0.20)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"

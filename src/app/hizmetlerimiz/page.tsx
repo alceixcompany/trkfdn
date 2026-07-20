@@ -114,7 +114,7 @@ const ServicesPage = () => {
                       <h3 className="mt-2 font-serif text-4xl text-white">{featured.title}</h3>
                       <p className="mt-3 max-w-2xl text-sm leading-7 text-white/66">{featured.description}</p>
                     </div>
-                    <a href="tel:05316063987" className="lale-gold-button whitespace-nowrap">
+                    <a href="tel:05550344224" className="lale-gold-button whitespace-nowrap">
                       Hemen Ara
                     </a>
                   </div>

@@ -5,16 +5,16 @@ import { FiArrowUpRight, FiInstagram, FiMapPin, FiMessageCircle, FiPhone, FiUser
 const contacts = [
   {
     label: 'Tarık Fidan',
-    value: '0555 034 42 24',
+    value: '0531 606 39 87',
     sub: 'İkinci iletişim hattı',
-    href: 'tel:05550344224',
+    href: 'tel:05316063987',
     icon: FiPhone,
   },
   {
     label: 'WhatsApp',
     value: 'Hızlı servis talebi',
     sub: 'Fotoğraf ve konum gönderin',
-    href: 'https://wa.me/905316063987',
+    href: 'https://wa.me/905550344224',
     icon: FiMessageCircle,
   },
   {
@@ -34,10 +34,10 @@ const contacts = [
 ] as const;
 
 const primaryContact = {
-  label: 'Yetkili',
-  value: 'Mehmet YÖNEY',
-  number: '0531 606 39 87',
-  href: 'tel:05316063987',
+  label: 'Yetkili · Ana Hat',
+  value: 'Tarık Fidan',
+  number: '0555 034 42 24',
+  href: 'tel:05550344224',
   icon: FiUser,
 } as const;
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 durumu netleştirir, ardından en hızlı servis planını oluşturur.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a href="tel:05316063987" className="lale-gold-button gap-3">
+                <a href="tel:05550344224" className="lale-gold-button gap-3">
                   Hemen Ara
                   <FiPhone className="h-4 w-4" />
                 </a>

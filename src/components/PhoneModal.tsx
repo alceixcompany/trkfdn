@@ -11,14 +11,14 @@ type PhoneModalProps = {
 
 const phoneNumbers = [
   {
-    name: 'Mehmet YÖNEY',
-    number: '0531 606 39 87',
-    href: 'tel:05316063987',
-  },
-  {
-    name: 'Tarık Fidan',
+    name: 'Tarık Fidan · Ana Hat',
     number: '0555 034 42 24',
     href: 'tel:05550344224',
+  },
+  {
+    name: 'Tarık Fidan · 2. Hat',
+    number: '0531 606 39 87',
+    href: 'tel:05316063987',
   },
 ] as const;
 

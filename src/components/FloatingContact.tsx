@@ -18,7 +18,7 @@ const FloatingContact = () => {
     {
       name: 'WhatsApp',
       icon: <FaWhatsapp className="h-5 w-5 text-[#25D366]" />,
-      href: 'https://wa.me/905316063987',
+      href: 'https://wa.me/905550344224',
       isExternal: true,
       color: 'bg-[#15110d]/92 border border-[rgba(199,155,67,0.48)] backdrop-blur-xl',
       angle: 220,
@@ -26,7 +26,7 @@ const FloatingContact = () => {
     {
       name: 'Telefon',
       icon: <FaPhoneAlt className="h-5 w-5 text-[#34B7F1]" />,
-      href: 'tel:05316063987',
+      href: 'tel:05550344224',
       isExternal: false,
       color: 'bg-[#15110d]/92 border border-[rgba(199,155,67,0.48)] backdrop-blur-xl',
       angle: 260,

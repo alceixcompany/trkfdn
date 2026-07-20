@@ -35,7 +35,7 @@ const Footer = () => {
 
               <div className="mt-6 flex items-center gap-3">
                 <a
-                  href="https://wa.me/905316063987"
+                  href="https://wa.me/905550344224"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(199,155,67,0.28)] bg-[#1b1b1b]/90 text-[var(--lale-gold)] shadow-sm backdrop-blur-xl transition-colors hover:bg-white/80"
@@ -44,7 +44,7 @@ const Footer = () => {
                   <FiMessageCircle className="h-4 w-4" />
                 </a>
                 <a
-                  href="tel:05316063987"
+                  href="tel:05550344224"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(199,155,67,0.28)] bg-[#1b1b1b]/90 text-[var(--lale-gold)] shadow-sm backdrop-blur-xl transition-colors hover:bg-white/80"
                   title="Telefon"
                 >
@@ -94,14 +94,14 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-3">
                   <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />
-                  <a href="tel:05316063987" className="transition-colors hover:text-[var(--lale-gold)]">
-                    0531 606 39 87
+                  <a href="tel:05550344224" className="transition-colors hover:text-[var(--lale-gold)]">
+                    Tarık Fidan · 0555 034 42 24 (Ana Hat)
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />
-                  <a href="tel:05550344224" className="transition-colors hover:text-[var(--lale-gold)]">
-                    0555 034 42 24
+                  <a href="tel:05316063987" className="transition-colors hover:text-[var(--lale-gold)]">
+                    Tarık Fidan · 0531 606 39 87 (2. Hat)
                   </a>
                 </li>
                 <li className="flex items-center gap-3">

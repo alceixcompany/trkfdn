@@ -218,13 +218,13 @@ const ServiceAreaDetailPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:05316063987"
+              href="tel:05550344224"
               className="lale-gold-button gap-2"
             >
               📞 Hemen Ara
             </a>
             <a
-              href="https://wa.me/905316063987"
+              href="https://wa.me/905550344224"
               target="_blank"
               rel="noopener noreferrer"
               className="lale-outline-button gap-2"
